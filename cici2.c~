@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+/*printf("=============SELAMAT DATANG DI PROGRAM SEDERHANA===========\n");
+
+int nilai = 2;						//ini adalah variablenya
+
+if (nilai > 3){						//ini adalah contoh dari penggunaan if else umum
+	printf("nilainya benar\n");		//jawaban utamanya diletak kan dibagian ini
+}if else {
+printf("nilainya tidak tepat");		//dan ini adalah kondisi yang tidak utama 
+}
+*/
+
+
+
+int menu_pilihan;					//ini adalah variablenya
+
+printf("Menu Minuman\n");
+printf("1. Matchalatte\n");
+printf("2. Kopi sanger\n");
+printf("3. Teh Manis Dingin\n");
+printf("4. Teh Tarik\n");
+printf("Masukan Minuman yang anda ingin pesan:");
+scanf("%d", &menu_pilihan);
+
+switch (menu_pilihan) {				//ini adalah fungsi dari switch case
+case 1:
+	printf("Pesanan kamu adalah Matchalatte\n");		//ini adalah kondisi dimana jawabanya akan dicari berdasarkan inputanya
+	break;
+case 2:
+	printf("Pesanan kamu adalah sanger\n");
+	break;
+case 3:
+	printf("Pesanan kamu adalah Teh manis dingin\n");
+	break;
+case 4:
+	printf("Pesanan kamu adalah teh tarik\n");
+	break;
+default:
+	printf("Menu tidak ada atau sudah habis\n");		//kalau inputannya tidak valid atau tidak ada dia akan dikembalikan ke opsi akhir ini
+}
+
+return 0;
+
+}

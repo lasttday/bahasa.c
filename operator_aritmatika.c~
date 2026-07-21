@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+//printf("hello word");			//data yang ada diluar dari fungsi main akan mengalami eror kalau tidak masuk didalam fungsi tersebut
+
+int main(){
+
+int nilai_pertama = 10, nilai_kedua = 20;		//penggunaan operator aritmatika dalam satu variable
+//int nilai1 = 3, nilai2 = 2;
+
+printf(" nilai hasil dari jumlah satu dan dua adalah : %d\n", nilai_pertama + nilai_kedua);		//dalam satu baris  variable itu penjumlahanya akan digunakan dalam fungsi printf beda cerita kalau membuat variablenya masing masing
+//printf("hasil dari nilai1 dan nilai2 adalah: %d\n", nilai1 + nilai2);
+
+
+return 0;
+}
+
+
+										//penting di ingat bahwa ada peraturan dalam operator  aritmatika ini, Didalam opererator aritmatika ini dia  akan mengeksekusi nilai yang ada didalam titik kurung ini dulu, kalau ada ()
+										//1. ibaratnya () nilai yang ada di dalam kurung ini dulu yang harus di prioritaskan untuk dijumlahkan. "ibaratnya ini kasta dalam operator" 
+										//2. ++, --, +, - operator ini adalah kasta kedua tertinggi. operator + dan - nya disini bersifat unery
+										//3. *, /, %    kali, bagi, dan modulusadalah kasta ke tiga
+										//4. +, -   operator + dan - didalam ini bersifat biner 
+										//5. dan yang paling rendah adalah operator assaigment/peugasan  

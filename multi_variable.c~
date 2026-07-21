@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+
+/*char nama_saya[6] = "Visal", nama_kamu[15] = "sidik prambudi", nama_cewe[11] = "cecil saja";		//contoh penggunaan multi variable  dia harus diawali dengan isi nilai array jika formatnya %s. selain itu tidak usah pakai array 
+
+printf("nama saya adalah %s, nama kamu adalah %s, nama cewe itu adalah %s\n", nama_saya, nama_kamu, nama_cewe);		//note: setiap nilai variablenya \0 dan terhitung sebagai suatu nilai contoh variable nama "riski" = 5 huruf didalam string tapi ada nilai tambahan \o ini dan dia masuk  jadinya array harus 6 kita buat
+
+*/
+
+int total_belanjaan = 10, pisang = 5, apel = 5;
+
+printf("total belanja keseluruhan kamu adalah %d, untuk pisang yang kamu beli %d, dan untuk apel yang kamu beli %d\n", total_belanjaan, pisang, apel);
+
+return 0;
+}
